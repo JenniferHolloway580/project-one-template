@@ -1,0 +1,16 @@
+a {text-decoration: none; }
+nav {
+display: grid;
+grid-tmeplate-columns: 50% 50%;*/
+
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li { 
+display: inline-block
+margin-left: 40 px 
+
+}
