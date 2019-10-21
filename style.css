@@ -1,0 +1,192 @@
+/*@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+*/
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	font-weight:normal;
+	line-height:1.5em;
+	margin:0;
+}
+
+body {background-color: white;}
+
+.homepage header {
+	background-image: url(https://norwegian123.com/wp-content/uploads/2019/04/20130207214_9f0b9b1f8e_k-940x528.jpg);
+	background-size: cover;
+	padding-top: 9.0em;
+	padding-left: 5.5em;
+}
+a {text-decoration: none;}
+
+a:hover { color: lightblue; }
+
+header, nav, main, footer {
+	color: Black;
+	text-align: left;
+	width: 90%;
+	margin: auto;
+	line-height:1.4em;
+	padding: 0.6em;
+	padding-left: 9.5em;
+}
+
+h1 {
+	color: White;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	line-height:5.4em;
+	font-weight:700;
+	padding: 3.0em;
+
+}
+
+
+h2 {
+	color: black;
+	text-align: left;
+	font-family: "PT Sans", sans-serif;
+	font-size: 28px;
+	font-weight:lighter;
+	line-height:1.4em;
+	padding: 1.0em;
+	width: 40%;
+	
+}
+
+/* Header styles */
+header { 
+	background-image: url('../images/Norway.png');
+	background-size: cover;
+	color: White;
+	min-height: 90px;
+	margin-top: 60px;
+	padding-top: 0.2em;
+	padding-left: 0.8em;
+}
+/*http://web.pdx.edu/~nicolasm/341/project_1/html/index.html#
+*/
+.content{
+	text-align: left;
+	width: 60%;
+
+	overflow: hidden;
+}
+
+/* Nav styles */
+nav { background-color: 0; }
+nav ul { 
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { padding: 50px 20px; }
+nav a { color: black; }
+nav a:hover { color: lightblue; }
+
+ }
+
+/* Main styles */
+main { 
+	background-color:#000000;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+section {
+	padding: 40px 60px;
+	<img src="3rd Norway image.png>
+}
+
+section ul, aside ul {
+	list-style-type: square;
+	margin-top: 20px; 
+	margin-left: 30px;
+}
+
+aside {
+	padding: 40px 10px;
+}
+
+.norway .title {
+	background-image: url(../images/hardangervidda.png);
+	padding: 200px 30px;
+	font-size: 38px;
+	color: White;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	width: 60%
+}
+
+.england .title {
+	background-image: url(https://farm5.static.flickr.com/4307/35818072192_61ddafbc67_b.jpg);
+	padding: 30px 30px;
+	font-size: 38px;
+	color: White;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	width: 60%
+}
+
+.scotland .title {
+	background-image: url(https://www.watchmesee.com/wp-content/uploads/West-Highland-Way-Scotland-Kathi-Kamleitner-052017-57.jpg);
+	padding: 500px;
+	padding-bottom: 100px;
+	font-size: 38px;
+	color: White;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	width: 60%
+}
+
+.switzerland .title {
+	background-image: url(https://www.thehikinglife.com/the-hiking-life-2/wp-content/uploads/2010/10/RANDA_30.jpg);
+	padding: 30px 30px;
+	font-size: 38px;
+	color: White;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	width: 60%
+}
+
+.image-nav {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 20px;
+}
+
+.image-nav li {
+	text-align: center;
+	list-style-type: none; 
+
+}
+
+.image-nav img { width: 100%; }
+
+.image-nav {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 20px;
+}
+
+
+.image-nav li {
+	text-align: center;
+	list-style-type: none; 
+
+}
+
+.image-nav img { width: 100%; }
+/* Footer styles */
+footer { 
+	background-color: #300;
+	color: white;
+	text-align: center;
+ }
+ footer p { padding: 20px; }
