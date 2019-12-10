@@ -12,6 +12,60 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	<style>
+      .example {
+      cursor: pointer;
+      height: 1500px;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      text-align:center;
+      }
+      .example .fadedbox {
+      background-color: #666666;
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #fff;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width: 100%;
+      height: 1500px;
+      padding: 130px 20px;
+      }
+      .example:hover .fadedbox { opacity: 0.8; }
+      .example .text {
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      transform: translateY(30px);
+      -webkit-transform: translateY(30px);
+      }
+      .example .title {
+      font-size: 2.5em;
+      text-transform: uppercase;
+      opacity: 0;
+      transition-delay: 0.2s;
+      transition-duration: 0.3s;
+      text-align: center;
+	  margin: auto;
+	  font-size: 120px;
+	  margin-top: 600px;
+      }
+      .example:hover .title,
+      .example:focus .title {
+      opacity: 1;
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      }
+    </style>
 </head>
 <body class="england">
 	<nav>
@@ -23,9 +77,13 @@
 			<li><a href="switzerland.html">Switzerland</a></li>
 		</ul>
 	</nav>
-	<header class="england-bg">
-	<h1>THE CONISTON ROUND AT CONISTON, ENGLAND</h1>
-	</header>
+
+	<div class="example">
+		<img src="file:///Users/serenityrose/Documents/GitHub/project-one-template/Images/the-coniston-round-at-coniston.png" style="width: 100%;height: 1500px;" />
+		<div class="fadedbox">
+			<div class="title text">THE CONISTON ROUND AT CONISTON</div>
+		</div>
+	</div>
 	<main>
 
 	<h2>“In all things of nature there <br> &nbsp;is something of the marvelous”<h2>
